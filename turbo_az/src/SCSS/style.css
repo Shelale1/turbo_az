@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Palanquin+Dark:wght@400;500;600;700&family=Poppins:ital,wght@0,200;0,500;0,600;0,700;0,800;0,900;1,300;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f7fa;
+  font-family: roboto, "sans-serif";
+}
+
+.container {
+  max-width: 1100px;
+  margin: 40px auto;
+}
+.container .heading {
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .heading #cities {
+  background-color: #b80d13;
+  border: none;
+  padding: 8px 11px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.container .heading #cities option {
+  background-color: #b80d13;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  height: 60px;
+}
+.container .heading #cities:hover {
+  background-color: #b80d13;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.container #card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.container #card-list .card {
+  width: 19.999%;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.container #card-list .card .card-inner {
+  position: relative;
+}
+.container #card-list .card .card-inner .card-image {
+  height: auto;
+}
+.container #card-list .card .card-inner .card-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container #card-list .card .card-inner .heart {
+  position: absolute;
+  z-index: 2;
+  top: 10px;
+  right: 10px;
+  color: aliceblue;
+  font-size: 25px;
+}
+.container #card-list .card .card-inner .card-content {
+  padding: 0 12px 10px;
+  margin-top: 10px;
+}
+.container #card-list .card .card-inner .card-content h3 {
+  line-height: 1rem;
+}
+.container #card-list .card .card-inner .card-content p {
+  line-height: 1.8rem;
+}
+.container #card-list .card .card-inner .card-content span {
+  color: #757575;
+  font-size: 14px;
+}/*# sourceMappingURL=style.css.map */
